@@ -14,7 +14,7 @@ import java.sql.DriverManager;
 public class DBConnection {
     private static final String user="root";
     private static final String url="jdbc:mysql://localhost:3306/auctiondb";
-    private static final String pass="smilegiri";
+    private static final String pass="******";
    
     public static Connection connectDB()
     {
